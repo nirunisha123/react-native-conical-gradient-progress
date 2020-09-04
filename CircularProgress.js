@@ -104,7 +104,7 @@ export default class CircularProgress extends Component {
       .startAngle(0)
       .endAngle(2 * Math.PI);
 
-    return <Path x={size / 2} y={size / 2} d={backgroundPath()} fill={backgroundColor} />;
+    return <Path x={(size / 2)+10} y={size / 2} d={backgroundPath()} fill={backgroundColor} />;
   }
 
   renderCirclePaths() {
